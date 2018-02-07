@@ -1,0 +1,38 @@
+<head>
+  <title>Assignment 1 — Azba Gurm</title>
+</head>
+
+<body>
+  <h1>Welcome to MeteorEditor 1.0!</h1>
+
+  {{> styles}}
+  {{> text}}
+</body>
+
+<template name="styles">
+  <button id="bold">Bold</button>
+  <button id="italic">Italic</button>
+  <button id="underline">Underline</button>
+  <br><br>
+  <button id="black">Black</button>
+  <button id="red">Red</button>
+  <button id="green">Green</button>
+  <button id="blue">Blue</button>
+
+  <p><b>Current status:</b> <b>{{is_bold}}</b> <i>{{is_italic}}</i> <u>{{is_underline}}</u> <b><span style="color:{{what_color}}">{{what_color}}</span></b> {{no_styles}}</p>
+</template>
+
+
+<template name="text">
+
+  {{#each entered_text}}
+      <span style="color:{{color}}; font-weight:{{bold}}; font-style:{{italic}}; text-decoration:{{underline}}">{{entry}}</span>
+  {{/each}}
+
+  <br>
+  <br>
+  <input type="text" name="enter" />
+  <br><br>
+  <button id="clear_btn">Clear All Text</button>
+
+</template>

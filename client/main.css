@@ -1,0 +1,109 @@
+/* CSS declarations go here */
+
+body {
+ font-family: helvetica;
+}
+
+button {
+ border: 1px solid;
+ padding: 4px;
+ width: 80px;
+ height: 35px;
+ margin: 3px;
+ border-radius: 4px;
+ font-size: 13px;
+ background: none;
+ box-shadow: none;
+}
+
+
+#bold {
+ font-weight: bold;
+}
+
+#bold:hover {
+ background: #000;
+ color: #fff;
+}
+
+#italic {
+ font-style: italic;
+}
+
+#italic:hover {
+ background: #000;
+ color: #fff;
+}
+
+#underline {
+ text-decoration: underline;
+}
+
+#underline:hover {
+ background: #000;
+ color: #fff;
+}
+
+#black {
+ color: #000;
+ border-color: #000;
+}
+
+#black:hover {
+ color: #fff;
+ background: #000;
+}
+
+#red {
+ color: #c0392b;
+ border-color: #c0392b;
+}
+
+#red:hover {
+ color: #fff ;
+ background: #c0392b;
+ border-color: #c0392b;
+}
+
+#green {
+ color: #2ecc71;
+ border-color: #2ecc71;
+}
+
+#green:hover {
+ color: #fff ;
+ background: #2ecc71;
+}
+
+#blue {
+ color: #2980b9;
+ border-color: #2980b9;
+}
+
+#blue:hover {
+ color: #fff ;
+ background: #2980b9;
+}
+
+#clear_btn {
+ width: 110px;
+ color: #2980b9;
+ border-color: #2980b9;
+}
+
+#clear_btn:hover {
+ color: #fff ;
+ background: #2980b9;
+}
+
+input[type="text"] { 
+ width: 300px;
+ font-size: 16px;
+ height: 25px;
+} 
+
+.selected {
+ border-width: 2px;
+ font-weight: bold;
+}
+
